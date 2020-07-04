@@ -1,0 +1,30 @@
+{
+  "name": "tinypng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp tinypng",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/del1214/tinypng.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/del1214/tinypng/issues"
+  },
+  "homepage": "https://github.com/del1214/tinypng#readme",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-tinypng-nokey": "^1.1.0"
+  },
+  "bin": {
+    "gulp": "./node_modules/.bin/gulp"
+  }
+}
